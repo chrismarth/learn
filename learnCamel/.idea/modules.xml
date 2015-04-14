@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/file-copy/file-copy.iml" filepath="$PROJECT_DIR$/file-copy/file-copy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ftp-to-jms/ftp-to-jms.iml" filepath="$PROJECT_DIR$/ftp-to-jms/ftp-to-jms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/learnCamel.iml" filepath="$PROJECT_DIR$/learnCamel.iml" />
+    </modules>
+  </component>
+</project>
+
