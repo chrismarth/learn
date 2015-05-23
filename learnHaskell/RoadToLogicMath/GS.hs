@@ -46,6 +46,3 @@ srtString :: [String] -> [String]
 srtString [] = []
 srtString (x:xs) = srtInts (x:xs)
 
-
-
-
