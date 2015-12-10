@@ -1,0 +1,35 @@
+New log file opened at Wed Oct 28 21:24:12 MDT 2015 by 2357@Christophers-MacBook-Pro.local
+Taking next connection to: 55175
+New client attempting to connect on port: 55176-55175
+  Address = /192.168.0.101:55175
+This client on port 55176 has uuid b9049d0e-3b6e-40a6-b33f-9deb5fcc66fa configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
+Connected Clients: activator-b9049d0e-3b6e-40a6-b33f-9deb5fcc66fa
+Taking next connection to: 55175
+New client attempting to connect on port: 55177-55175
+  Address = /192.168.0.101:55175
+Handshake exception on socket: 55177
+sbt.impl.ipc.HandshakeException: Unable to perform handshake
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
+	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
+	at sbt.server.SbtServerSocketHandler$$anon$1.run(SbtServerSocketHandler.scala:43)
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:209)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:265)
+	at java.io.DataInputStream.readInt(DataInputStream.java:387)
+	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
+	... 2 more
+Taking next connection to: 55175
+New client attempting to connect on port: 55178-55175
+  Address = /192.168.0.101:55175
+This client on port 55178 has uuid 542fe4e6-986a-405f-a844-15dbfc3674ee configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
+Connected Clients: activator-b9049d0e-3b6e-40a6-b33f-9deb5fcc66fa, activator-542fe4e6-986a-405f-a844-15dbfc3674ee
+Taking next connection to: 55175
+Checking to see if clients are empty...
+No non-daemon clients connected after 3 min. Shutting down.
+Server socket thread exiting.
+0 clients open, will close them...
+All client sockets have been closed.
+Closing the 2357@Christophers-MacBook-Pro.local logs at Wed Oct 28 21:27:13 MDT 2015, goodbye.
